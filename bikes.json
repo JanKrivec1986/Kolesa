@@ -1,0 +1,109 @@
+[
+  {
+    "id": "001",
+    "brand": "Trek",
+    "model": "Marlin 6",
+    "type": "Gorsko",
+    "size": "M",
+    "wheelSize": "29",
+    "price": 390,
+    "status": "Na voljo",
+    "year": 2020,
+    "image": "",
+    "description": "Urejeno rekreativno gorsko kolo, primerno za makadam, gozdne poti in vsakodnevno vožnjo.",
+    "serviced": [
+      "pregledane zavore",
+      "očiščena in namazana veriga",
+      "nastavljene prestave"
+    ]
+  },
+  {
+    "id": "002",
+    "brand": "Scott",
+    "model": "Aspect 950",
+    "type": "Gorsko",
+    "size": "L",
+    "wheelSize": "29",
+    "price": 460,
+    "status": "Na voljo",
+    "year": 2021,
+    "image": "",
+    "description": "Ohranjeno aluminijasto gorsko kolo z udobno geometrijo.",
+    "serviced": [
+      "nove zavorne ploščice",
+      "centrirana kolesa",
+      "servis menjalnika"
+    ]
+  },
+  {
+    "id": "003",
+    "brand": "Giant",
+    "model": "Escape 2",
+    "type": "Mestno",
+    "size": "M",
+    "wheelSize": "28",
+    "price": 280,
+    "status": "Rezervirano",
+    "year": 2019,
+    "image": "",
+    "description": "Hitro in praktično kolo za mesto, službo in lažje izlete.",
+    "serviced": [
+      "nove zajle",
+      "nastavljene zavore",
+      "pregled pnevmatik"
+    ]
+  },
+  {
+    "id": "004",
+    "brand": "Cube",
+    "model": "Aim",
+    "type": "Gorsko",
+    "size": "S",
+    "wheelSize": "27.5",
+    "price": 320,
+    "status": "Na voljo",
+    "year": 2018,
+    "image": "",
+    "description": "Manjši okvir, primeren za nižje kolesarje ali mladostnike.",
+    "serviced": [
+      "nova veriga",
+      "nastavljene prestave",
+      "pregled vilice"
+    ]
+  },
+  {
+    "id": "005",
+    "brand": "Specialized",
+    "model": "Sirrus",
+    "type": "Trekking",
+    "size": "L",
+    "wheelSize": "28",
+    "price": 350,
+    "status": "Prodano",
+    "year": 2020,
+    "image": "",
+    "description": "Udobno in hitro kolo za asfalt ter daljše vsakodnevne vožnje.",
+    "serviced": [
+      "servis pogona",
+      "nastavljene zavore"
+    ]
+  },
+  {
+    "id": "006",
+    "brand": "Cannondale",
+    "model": "Trail 7",
+    "type": "Gorsko",
+    "size": "M",
+    "wheelSize": "29",
+    "price": 410,
+    "status": "Na voljo",
+    "year": 2020,
+    "image": "",
+    "description": "Zanesljivo hardtail kolo za rekreativno vožnjo in lažje terene.",
+    "serviced": [
+      "nova zadnja pnevmatika",
+      "servis zavor",
+      "nastavljene prestave"
+    ]
+  }
+]

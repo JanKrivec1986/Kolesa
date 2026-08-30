@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servisirana rabljena kolesa naprodaj. Preglej ponudbo in me kontaktiraj za ogled ali testno vožnjo.">
+  <title>Kolesa Naprodaj</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Kolesa Naprodaj</a>
+      <nav>
+        <a href="#ponudba">Ponudba</a>
+        <a href="#nakup">Kako poteka nakup</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Rabljena • pregledana • pripravljena za vožnjo</span>
+          <h1>Dobra kolesa po pošteni ceni.</h1>
+          <p>Vsako kolo pregledam, uredim in jasno opišem njegovo stanje. Brez skrivanja napak in brez kompliciranja.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ponudba">Poglej kolesa</a>
+            <a class="btn btn-secondary" href="#kontakt">Kontakt</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-number" id="availableCount">0</div>
+          <div class="hero-card-label">koles trenutno na voljo</div>
+          <p>Ogled in testna vožnja po dogovoru.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ponudba">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Ponudba</span>
+            <h2>Kolesa naprodaj</h2>
+          </div>
+          <p>Uporabi filtre in hitro najdi primerno kolo.</p>
+        </div>
+
+        <div class="filters">
+          <label>
+            Tip
+            <select id="typeFilter">
+              <option value="">Vsi tipi</option>
+            </select>
+          </label>
+          <label>
+            Velikost
+            <select id="sizeFilter">
+              <option value="">Vse velikosti</option>
+            </select>
+          </label>
+          <label>
+            Status
+            <select id="statusFilter">
+              <option value="">Vsi statusi</option>
+              <option value="Na voljo">Na voljo</option>
+              <option value="Rezervirano">Rezervirano</option>
+              <option value="Prodano">Prodano</option>
+            </select>
+          </label>
+          <label>
+            Iskanje
+            <input id="searchInput" type="search" placeholder="Znamka ali model">
+          </label>
+        </div>
+
+        <div id="bikeGrid" class="bike-grid" aria-live="polite"></div>
+        <p id="emptyState" class="empty-state" hidden>Ni koles, ki bi ustrezala izbranim filtrom.</p>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="nakup">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Enostavno</span>
+            <h2>Kako poteka nakup</h2>
+          </div>
+        </div>
+        <div class="steps">
+          <article>
+            <span>01</span>
+            <h3>Izbereš kolo</h3>
+            <p>Pregledaš slike, velikost, opis in kaj je bilo na kolesu urejeno.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Dogovor za ogled</h3>
+            <p>Pišeš ali pokličeš in dogovorimo se za termin ogleda ter testno vožnjo.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Prevzem</h3>
+            <p>Če ti kolo ustreza, ga prevzameš in odpelješ.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="kontakt">
+      <div class="container contact-card">
+        <div>
+          <span class="eyebrow">Kontakt</span>
+          <h2>Te zanima kakšno kolo?</h2>
+          <p>Zamenjaj spodnje kontaktne podatke s svojimi.</p>
+        </div>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="mailto:tvoj@email.si">tvoj@email.si</a>
+          <a class="btn btn-secondary" href="tel:+38640123456">040 123 456</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span id="year"></span> Kolesa Naprodaj</span>
+      <span>Izdelano kot statična stran za GitHub Pages.</span>
+    </div>
+  </footer>
+
+  <script src="js/bikes.js"></script>
+</body>
+</html>
