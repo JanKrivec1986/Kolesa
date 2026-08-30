@@ -80,7 +80,7 @@ function render() {
   el.addEventListener('input', render);
 });
 
-fetch('data/bikes.json')
+fetch('bikes.json')
   .then(response => {
     if (!response.ok) throw new Error('Napaka pri nalaganju podatkov.');
     return response.json();
