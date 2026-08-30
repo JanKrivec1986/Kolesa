@@ -106,4 +106,22 @@
       "nastavljene prestave"
     ]
   }
+  {
+    "id": "007",
+    "brand": "Rog",
+    "model": "Sierra",
+    "type": "Mestno",
+    "size": "M",
+    "wheelSize": "26",
+    "price": 45,
+    "status": "Na voljo",
+    "year": 1990,
+    "image": "",
+    "description": "Super mestno kolo lahk otudi oldtimer",
+    "serviced": [
+      "nova zadnja pnevmatika",
+      "servis zavor",
+      "nastavljene prestave"
+    ]
+  }
 ]
