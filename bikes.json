@@ -45,7 +45,7 @@
     "price": 410,
     "status": "Rezervirano",
     "year": 2008,
-    "image": "",
+    "image": "giant.jpg",
     "description": "Hitro in praktično vsenamensko MTB kolo. Prestave 3X9",
     "serviced": [
       "nove zajle",
@@ -134,7 +134,7 @@
     "price": 120,
     "status": "Prodano",
     "year": 2004,
-    "image": "",
+    "image": "scott.jpg",
     "description": "Super laheh okvir primerno za lažje kolesarje",
     "serviced": [
       "nova zadnja pnevmatika",
