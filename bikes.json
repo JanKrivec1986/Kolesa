@@ -72,7 +72,7 @@
     ]
   },
   {
-    "id": "007",
+    "id": "005",
     "brand": "Rog",
     "model": "Pony",
     "type": "Oldtimer",
@@ -107,7 +107,7 @@
     ]
   },
   {
-    "id": "005",
+    "id": "007",
     "brand": "Rog",
     "model": "Sierra",
     "type": "Mestno",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "id": "007",
+    "id": "008",
     "brand": "Scott",
     "model": "Racer",
     "type": "Gorsko",
@@ -136,6 +136,24 @@
     "year": 2004,
     "image": "scot.jpg",
     "description": "Super laheh okvir primerno za lažje kolesarje",
+    "serviced": [
+      "nova zadnja pnevmatika",
+      "servis zavor",
+      "nastavljene prestave"
+    ]
+  },
+  {
+    "id": "009",
+    "brand": "BMC",
+    "model": "Time Machine",
+    "type": "Cestno kronometer",
+    "size": "L",
+    "wheelSize": "28",
+    "price": 1300,
+    "status": "Na voljo",
+    "year": 2012,
+    "image": "BMC.jpg",
+    "description": "Super aerodinamična izvedba okvirja",
     "serviced": [
       "nova zadnja pnevmatika",
       "servis zavor",
