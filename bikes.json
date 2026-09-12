@@ -55,19 +55,19 @@
   },
   {
     "id": "004",
-    "brand": "Cube",
-    "model": "Aim",
-    "type": "Gorsko",
-    "size": "S",
-    "wheelSize": "27.5",
-    "price": 320,
+    "brand": "Scott",
+    "model": "Plasma",
+    "type": "Cestno",
+    "size": "L",
+    "wheelSize": "28",
+    "price": 770,
     "status": "Na voljo",
-    "year": 2018,
+    "year": 2008,
     "image": "",
-    "description": "Manjši okvir, primeren za nižje kolesarje ali mladostnike.",
+    "description": "Okvir z integriranim seat-postom, zaenkrat odrezan na višino za kolesarja 190 cm, primeren tudi za nižje kolesarje do 175 cm torej se lahko še krajša..",
     "serviced": [
       "nova veriga",
-      "nastavljene prestave",
+      "nastavljene prestave 2X10",
       "pregled vilice"
     ]
   },
