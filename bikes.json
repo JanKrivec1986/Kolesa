@@ -9,7 +9,7 @@
     "price": 110,
     "status": "Na voljo",
     "year": 1996,
-    "image": "images/rog-dakota.jpg",
+    "image": "rog-dakota.jpg",
     "description": "Urejeno rekreativno gorsko kolo, primerno za makadam, gozdne poti in vsakodnevno vožnjo. Prestave 3X6 Kot novo! ",
     "serviced": [
       "pregledane zavore",
@@ -28,7 +28,7 @@
     "price": 75,
     "status": "Na voljo",
     "year": 2000,
-    "image": "images/iride.jpg",
+    "image": "iride.jpg",
     "description": "Kolo z jeklenim okvirjem in udobno geometrijo.Prestave 3X6",
     "serviced": [
       "centrirana kolesa",
@@ -63,7 +63,7 @@
     "price": 770,
     "status": "Na voljo",
     "year": 2008,
-    "image": "images/scott-plasma.jpg",
+    "image": "scott-plasma.jpg",
     "description": "Okvir z integrirano sedežno oporo. Zaenkrat odrezan na višino za kolesarja 190 cm",
     "serviced": [
       "nova veriga",
