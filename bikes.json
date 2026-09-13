@@ -177,5 +177,22 @@
       "servis zavor",
       "nastavljene prestave"
     ]
+  },
+  {
+    "id": "011",
+    "brand": "Wilier",
+    "model": "O",
+    "type": "Mestno",
+    "size": "M",
+    "wheelSize": "28",
+    "price": 190,
+    "status": "Na voljo",
+    "year": 1970,
+    "image": "willierz.jpg",
+    "description": "Zelo dobro ohranjeno mestno žensko kolo oldtimer.",
+    "serviced": [
+      "servis zavor",
+      "nastavljene prestave"
+    ]
   }
 ]
