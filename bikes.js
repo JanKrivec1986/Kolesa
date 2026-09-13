@@ -102,3 +102,14 @@ fetch('bikes.json')
   });
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+function imageClass(bike) {
+  if (bike.id === '003') return 'fit-giant';
+  if (bike.id === '004') return 'fit-plasma';
+  if (bike.id === '009') return 'fit-racer';
+  return '';
+}
+
+const image = bike.image
+  ? `<img src="${bike.image}" alt="${bike.brand} ${bike.model}" class="${imageClass(bike)}">`
+  : `<div class="bike-image-placeholder">Dodaj fotografijo</div>`;
