@@ -144,7 +144,7 @@ h3 { font-size: 1.2rem; }
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(31,44,32,.045);
 }
-/*.bike-image {
+.bike-image {
   aspect-ratio: 4 / 3;
   background: linear-gradient(135deg, #e6ebe3, #f7f8f4);
   display: grid;
@@ -152,10 +152,10 @@ h3 { font-size: 1.2rem; }
   color: var(--muted);
   overflow: hidden;
 }
-.bike-image img { width: 100%; height: 100%; object-fit: cover; }*/
-.bike-image {
+.bike-image img { width: 100%; height: 100%; object-fit: cover; }
+/*.bike-image {
   width: 100%;
-  /*aspect-ratio: 4 / 3;*/
+  aspect-ratio: 4 / 3;
   aspect-ratio: 1 / 1;
   background: #f2f2ef;
   display: flex;
@@ -257,7 +257,7 @@ h3 { font-size: 1.2rem; }
   transform: scale(1.55);
 }*/
 
-.fit-giant {
+/*.fit-giant {
   object-fit: contain;
   transform: scale(1.25);
 }
@@ -270,4 +270,4 @@ h3 { font-size: 1.2rem; }
 .fit-racer {
   object-fit: contain;
   transform: scale(1.20);
-}
+}*/
