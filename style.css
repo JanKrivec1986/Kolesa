@@ -168,8 +168,8 @@ h3 { font-size: 1.2rem; }
 .bike-image img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  object-position: center;
+  /*object-fit: contain;
+  object-position: center;*/
 }
 .bike-image-placeholder { font-weight: 800; }
 /*.bike-body { padding: 20px; }*/
@@ -253,6 +253,21 @@ h3 { font-size: 1.2rem; }
   .contact-card { padding: 28px; }
 }
 /*povečujem slike giant terrago, scott plasma in scott racer*/
-.bike-img-zoom {
+/*.bike-img-zoom {
   transform: scale(1.55);
+}*/
+
+.fit-giant {
+  object-fit: contain;
+  transform: scale(1.25);
+}
+
+.fit-plasma {
+  object-fit: contain;
+  transform: scale(1.35);
+}
+
+.fit-racer {
+  object-fit: contain;
+  transform: scale(1.20);
 }
