@@ -252,6 +252,7 @@ h3 { font-size: 1.2rem; }
   .section-heading, .site-footer .container { align-items: flex-start; flex-direction: column; }
   .contact-card { padding: 28px; }
 }
+/*povečujem slike giant terrago, scott plasma in scott racer*/
 .bike-img-zoom {
-  transform: scale(1.18);
+  transform: scale(1.25);
 }
