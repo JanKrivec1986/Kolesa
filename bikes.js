@@ -15,7 +15,12 @@ function badgeClass(status) {
 
 function bikeCard(bike) {
   const image = bike.image
-    ? `<img src="${bike.image}" alt="${bike.brand} ${bike.model}">`
+    //? `<img src="${bike.image}" alt="${bike.brand} ${bike.model}">`
+    ? `<img 
+    src="${bike.image}" 
+    alt="${bike.brand} ${bike.model}"
+    class="${['003','004','009'].includes(bike.id) ? 'bike-img-zoom' : ''}"
+   >`
     : `<div class="bike-image-placeholder">Dodaj fotografijo</div>`;
 
   const serviceItems = (bike.serviced || [])
