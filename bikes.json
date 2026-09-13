@@ -81,7 +81,7 @@
     "price": 90,
     "status": "Na voljo",
     "year": 1980,
-    "image": "",
+    "image": "rogpony.jpg",
     "description": "Prebarvano kolo brez nalepk.",
     "serviced": [
       "servis pogona",
@@ -109,14 +109,14 @@
   {
     "id": "007",
     "brand": "Rog",
-    "model": "Senior",
+    "model": "Maraton",
     "type": "Cestno Oldtimer",
     "size": "L",
     "wheelSize": "28",
     "price": 80,
     "status": "Na voljo",
     "year": 1975,
-    "image": "",
+    "image": "rogmaraton.jpg",
     "description": "",
     "serviced": [
       "nova zadnja pnevmatika",
@@ -127,14 +127,14 @@
   {
     "id": "008",
     "brand": "Rog",
-    "model": "Sierra",
+    "model": "Mountain",
     "type": "Mestno",
     "size": "M",
     "wheelSize": "26",
     "price": 130,
     "status": "Na voljo",
     "year": 1997,
-    "image": "",
+    "image": "rogmountain.jpg",
     "description": "Super mestno kolo lahk otudi oldtimer",
     "serviced": [
       "nova zadnja pnevmatika",
