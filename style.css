@@ -172,7 +172,7 @@ h3 { font-size: 1.2rem; }
   object-position: center;
 }*/
 .bike-image-placeholder { font-weight: 800; }
-/*.bike-body { padding: 20px; }*/
+/.bike-body { padding: 20px; }
 .bike-topline { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
 .bike-title { margin: 0 0 4px; font-size: 1.25rem; }
 .bike-sub { color: var(--muted); font-size: .92rem; margin: 0; }
