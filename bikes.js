@@ -16,6 +16,7 @@ function badgeClass(status) {
 function bikeCard(bike) {
   const image = bike.image
     //? `<img src="${bike.image}" alt="${bike.brand} ${bike.model}">`
+    //povečujem slike giant terrago, scott plasma in scott racer
     ? `<img 
     src="${bike.image}" 
     alt="${bike.brand} ${bike.model}"
