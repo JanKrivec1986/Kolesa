@@ -88,8 +88,26 @@
       "nastavljene zavore"
     ]
   },
-  {
+   {
     "id": "006",
+    "brand": "Capriolo",
+    "model": "",
+    "type": "Oldtimer",
+    "size": "Universal",
+    "wheelSize": "20",
+    "price": 60,
+    "status": "Na voljo",
+    "year": 1998,
+    "image": "capriolo.jpg",
+    "description": " ",
+    "serviced": [
+      "pregledane zavore",
+      "očiščena in namazana veriga",
+       "Manjka Manjka zadnja luč!"
+    ]
+  },
+  {
+    "id": "007",
     "brand": "Rog",
     "model": "Senior",
     "type": "Cestno Oldtimer",
@@ -107,7 +125,7 @@
     ]
   },
   {
-    "id": "007",
+    "id": "008",
     "brand": "Rog",
     "model": "Sierra",
     "type": "Mestno",
@@ -125,7 +143,7 @@
     ]
   },
   {
-    "id": "008",
+    "id": "009",
     "brand": "Scott",
     "model": "Racer",
     "type": "Gorsko",
@@ -143,7 +161,7 @@
     ]
   },
   {
-    "id": "009",
+    "id": "010",
     "brand": "BMC",
     "model": "Time Machine",
     "type": "Cestno kronometer",
